@@ -8,12 +8,21 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-.header{
+.testing-boundary{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: center;
+
+}
+/* Header Section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    width: 2000px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    
     
 }
 .logo{
@@ -32,27 +41,44 @@ body{
     color: #f9faf8;
     display: inline;
 }
+
+
+
+/* Hero Section */
 .hero-section{
+    box-sizing: border-box;
     background-color: #1f2937;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
-    padding: 30px;
+    justify-content: space-between;
+    padding: 20px 100px;
     color: #f9faf8;
-    border: 5px solid red;
+    /* border: 5px solid red; */
+    width: 2000px;
+    gap: 20px;
 }
 .left-hero h1{
     margin: 0;
     padding: 0;
-    
 }
+.left-hero{
+    /* border: 5px solid red; */
+    flex: 1;
+
+}
+.right-hero{
+    flex: 1;
+    /* border: 5px solid yellowgreen; */
+}
+
+
 .hero-image{
     max-width: 600px;
     max-height: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-
+/* Second section */
 .second-section{
     display: flex;
     /* justify-content: center; */
@@ -84,7 +110,31 @@ body{
     flex-wrap: wrap;
     max-width: 300px;
     margin: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     align-items: center;
     justify-content: center;
+    height: 400px;
+}
+
+/* Third Section */
+
+
+
+/* Sign up Section */
+
+
+/* Footer Section */
+
+
+
+/* Button Class */
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+
+    border: 0px ;
+
 }
