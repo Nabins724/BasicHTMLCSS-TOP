@@ -4,6 +4,11 @@ body{
     box-sizing: border-box;
 }
 
+.home-page{
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     background-color: #1f2937;
     display: flex;
@@ -19,6 +24,7 @@ body{
 .navigation{
     display: flex;
 }
+
 .navigation li, a{
     font-size: 24px;
     list-style: none;
@@ -34,19 +40,51 @@ body{
     justify-content: space-around;
     padding: 30px;
     color: #f9faf8;
+    border: 5px solid red;
 }
-.left-section h1{
+.left-hero h1{
     margin: 0;
     padding: 0;
+    
+}
+.hero-image{
+    max-width: 600px;
+    max-height: 500px;
+    border: 1px solid red;
 }
 
 .second-section{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+    /* border: 2px solid red; */
 }
 
 .contents{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-evenly */
+}
+.image-class{
+    height: 200px;
+    width: 100px;
+    flex: 1;
+    margin: 10px;
+    border-radius: 13px;
+}
+
+.small-container{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
 }
