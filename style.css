@@ -12,23 +12,23 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    /* border: 5px solid red; */
 
 }
 /* Header Section */
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
-    width: 2000px;
+    align-items: center;
+    padding: 0px 100px;
+    width: 1500px;
     /* border: 1px solid red; */
     box-sizing: border-box;
-    
-    
 }
 .logo{
     color: #f9faf8;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 24px;
 }
 .navigation{
     display: flex;
@@ -40,6 +40,7 @@ body{
     text-decoration: none;
     color: #f9faf8;
     display: inline;
+    margin-left: 20px;
 }
 
 
@@ -49,18 +50,20 @@ body{
     box-sizing: border-box;
     background-color: #1f2937;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 50px 100px;
     color: #f9faf8;
     /* border: 5px solid red; */
-    width: 2000px;
+    width: 1500px;
     gap: 20px;
 }
 .left-hero h1{
     margin: 0;
     padding: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 .left-hero{
     /* border: 5px solid red; */
@@ -69,6 +72,8 @@ body{
 }
 .right-hero{
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
     /* border: 5px solid yellowgreen; */
 }
 
@@ -76,15 +81,25 @@ body{
 .hero-image{
     max-width: 600px;
     max-height: 500px;
+    border-radius: 10px;
     /* border: 1px solid red; */
 }
 /* Second section */
+.testing-boundary-second{
+    display: flex;
+    justify-content: center;
+}
 .second-section{
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     /* border: 2px solid red; */
+    box-sizing: border-box;
+    width: 1500px;
+}
+.second-section h2{
+    padding-top: 20px;
 }
 
 .contents{
@@ -116,15 +131,71 @@ body{
     height: 400px;
 }
 
-/* Third Section */
+/* Third Section The QUOTE Section*/
+.testing-boundary-third{
+    background-color: #E5E7EB;
+    box-sizing: border-box;
 
+}
+.third-section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote-section{
+    box-sizing: border-box;
+    max-width: 1500px;
+    /* border: 1px solid green; */
+    font-size: 36px;
+    padding: 100px 350px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+.quote-section .author {
+    text-align: right;
+    font-style: normal;
+
+}
 
 
 /* Sign up Section */
-
-
+.testing-boundary-signup{
+    display: flex;
+    justify-content: center;
+}
+.sign-up{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    align-items: center;
+    box-sizing: border-box;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 0px 200px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.button button{
+    border: 2px solid #f9faf8;
+}
 /* Footer Section */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+}
+.copyright{
+    font-size: 20px;
+    padding-top: 2px;
 
+}
 
 
 /* Button Class */
